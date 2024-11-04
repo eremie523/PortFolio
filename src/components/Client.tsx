@@ -31,7 +31,7 @@ const Client = (props: Props) => {
             <div className=' flex flex-col items-center justify-end gap-16 md:px-16 px-8'>
                 <InfiniteMovingCards items={TESTIMONIALS} direction='right' pauseOnHover={true} speed='slow' />
                 
-                <form action="" onSubmit={handleSubmit(onSubmit, (errors) => console.log(errors))} className='py-8 rounded-2xl flex flex-col gap-8 border border-white-100 md:px-24 px-8 md:min-w-[680px] max-md:w-full'>
+                <form action="" onSubmit={handleSubmit(onSubmit, (errors) => console.log(errors))} className='py-8 rounded-2xl flex flex-col gap-8 border border-white-100 md:px-24 sm:px-8 px2 md:min-w-[680px] max-md:w-full'>
                     <h1 className=' tracking-tight text-2xl'>Drop a Testimony On Your Experience with Us</h1>
                     <div className=' flex flex-col gap-3'>
                         <div className=' flex gap-4'>
