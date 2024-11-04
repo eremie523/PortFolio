@@ -1,7 +1,3 @@
-Here's a stylish README text for your portfolio:
-
----
-
 # 👋 Welcome to My Portfolio
 
 Hello! I’m Eremie Johnson Ibinabo, a web developer and blockchain enthusiast who transforms ideas into dynamic digital solutions. This portfolio is a showcase of my work across diverse projects, from blockchain-powered platforms to sleek, user-friendly web applications. 
