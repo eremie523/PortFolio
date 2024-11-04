@@ -1,11 +1,11 @@
 import Approach from '@/components/Approach'
 import Client from '@/components/Client'
-import Contact from '@/components/Ca'
 import Experience from '@/components/Experience'
 import Grid from '@/components/Grid'
 import Hero from '@/components/Hero'
 import RecentProjects from '@/components/RecentProjects'
 import Image from 'next/image'
+import CallToAction from '@/components/CallToAction'
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         <Client />
         <Experience />
         <Approach />
-        <Contact />
+        <CallToAction />
       </div>
     </main>
   )

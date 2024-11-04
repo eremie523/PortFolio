@@ -14,7 +14,11 @@ import AnimatedTextarea from './ui/AnimatedTextarea'
 type Props = {}
 
 const onSubmit = function(values: any) {
-
+    fetch("/testimonies", {
+        method: "POST",
+    }).then(response => {
+        console.log(response)
+    })
 };
 
 const Client = (props: Props) => {

@@ -6,6 +6,7 @@ import { GridGlobe } from "../GridGlobe";
 import MagicButton from "./MagicButton";
 import { FaCopy } from "react-icons/fa6";
 
+
 export const BentoGrid = ({
     className,
     children,
@@ -84,7 +85,7 @@ export const BentoGridItem = ({
                                 }
                                 {/* <span className="py-4 px-3 rounded-lg text-center bg-[#181e5c]"></span> */}
                             </div>
-                            <div className=" flex flex-col gap-3"> 
+                            <div className=" flex flex-col gap-3">
                                 {/* <span className="py-4 px-3 rounded-lg text-center bg-[#181e5c]"></span> */}
                                 {
                                     ["Express.js", "MySql", "PHP", "Laravel"].map((tech, i) => (<span key={i} className=" py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#181e5c]">{tech}</span>))
@@ -95,7 +96,28 @@ export const BentoGridItem = ({
                     {id === 6 && (
                         <div className=" mt-5 relative">
                             <div className={` bottom-0 right-0`}>
-                                <MagicButton ico={<FaCopy/>}>Copy My Email</MagicButton>
+                                <MagicButton ico={<FaCopy />} 
+                                // handleClick={(e) => {
+                                    // function i () {
+                                    //     // Fallback for older browsers
+                                    //     const textarea = document.createElement("textarea");
+                                    //     textarea.value = "reremie523@gmail.com";
+                                    //     document.body.appendChild(textarea);
+                                    //     textarea.select();
+                                    //     try {
+                                    //         document.execCommand("copy");
+                                    //         return true;
+                                    //     } catch (err) {
+                                    //         console.error("Fallback: Unable to copy text", err);
+                                    //         return false;
+                                    //     } finally {
+                                    //         document.body.removeChild(textarea);
+                                    //     }
+                                    // }
+
+                                    // i();
+                                // }} 
+                                >Copy My Email</MagicButton>
                             </div>
                         </div>
                     )}

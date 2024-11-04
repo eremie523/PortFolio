@@ -1,4 +1,4 @@
-import Image from 'next/image';
+"use client"
 import React, { MouseEvent, ReactNode } from 'react'
 
 type MagicButtonProps = {

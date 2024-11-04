@@ -46,10 +46,9 @@ export const GRID_ITEMS = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Figma to code SAAS project",
     description: "The Inside Scoop",
     className: "lg:col-span-3 lg:row-span-2",
     imgClassName: "absolute right-0 bottom-0 lg:w-96 w-60",
@@ -72,31 +71,31 @@ export const GRID_ITEMS = [
 export const PROJECTS = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Lisk Earn",
+    des: "Are you a person searching for someone to help you achieve a task?, Or a freelancer interested in the blockchain space, with LiskEarn It all becomes possible",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    link: "https://lisk-earn.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "HiLink Camping",
+    des: "A modern landing page UI for a camping organization, Keep your clients connected and hooked up to your service with this simple and stunning UI.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://hilink-camp-2.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "JobFindr FrontEnd",
+    des: "An interactive frontend interface for a job scraping platform, Data flow and analysis in sync. Await the backend implementation in progress",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://job-findr-nine.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "Bolt Ride Clone",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
@@ -176,7 +175,7 @@ export const WORK_EXPERIENCE = [
   //   title: "Frontend Engineer Intern",
   //   desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
   //   className: "md:col-span-2",
-  //   thumbnail: "/exp1.svg",
+  //   thumbnail: "",
   // },
   // {
   //   id: 2,
@@ -188,16 +187,16 @@ export const WORK_EXPERIENCE = [
   {
     id: 2,
     title: "Freelance Web Dev Project",
-    desc: "Led the dev of a web app for a client, from initial concept to deployment on app stores.",
+    desc: "Led the dev of a web app for a client, from initial concept to deployment on servers.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/exp1.svg",
   },
   {
     id: 3,
     title: "Lead Solidity Developer",
     desc: "Developed and maintained lisk Earn Program for the 2024 1st Edition Lisk Bounty Program.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp2.svg",
   },
 ];
 
@@ -205,13 +204,16 @@ export const SOCIAL_MEDIA = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/eremie523"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/reremie523"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedIn.com/"
   },
 ];
