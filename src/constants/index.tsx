@@ -74,7 +74,7 @@ export const PROJECTS = [
     title: "Lisk Earn",
     des: "Are you a person searching for someone to help you achieve a task?, Or a freelancer interested in the blockchain space, with LiskEarn It all becomes possible",
     img: "/p1.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://lisk-earn.vercel.app/",
   },
   {

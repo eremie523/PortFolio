@@ -1,3 +1,4 @@
+"use client"
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./BackgroundGradientAnimation";
 import ShimmerButton from "./ShimmerButton";
@@ -96,28 +97,37 @@ export const BentoGridItem = ({
                     {id === 6 && (
                         <div className=" mt-5 relative">
                             <div className={` bottom-0 right-0`}>
-                                <MagicButton ico={<FaCopy />} 
-                                // handleClick={(e) => {
-                                    // function i () {
-                                    //     // Fallback for older browsers
-                                    //     const textarea = document.createElement("textarea");
-                                    //     textarea.value = "reremie523@gmail.com";
-                                    //     document.body.appendChild(textarea);
-                                    //     textarea.select();
-                                    //     try {
-                                    //         document.execCommand("copy");
-                                    //         return true;
-                                    //     } catch (err) {
-                                    //         console.error("Fallback: Unable to copy text", err);
-                                    //         return false;
-                                    //     } finally {
-                                    //         document.body.removeChild(textarea);
-                                    //     }
-                                    // }
+                                <MagicButton
+                                    ico={<FaCopy />}
+                                    handleClick={() => {
+                                        console.log("Copying")
+                                        const email = "reremie523@gmail.com";
 
-                                    // i();
-                                // }} 
-                                >Copy My Email</MagicButton>
+                                        // Modern approach with navigator.clipboard
+                                        if (navigator.clipboard && window.isSecureContext) {
+                                            navigator.clipboard.writeText(email)
+                                                .then(() => console.log("Email copied to clipboard!"))
+                                                .catch(err => console.error("Failed to copy text: ", err));
+                                        } else {
+                                            // Fallback for older browsers
+                                            const textarea = document.createElement("textarea");
+                                            textarea.value = email;
+                                            document.body.appendChild(textarea);
+                                            textarea.select();
+                                            try {
+                                                document.execCommand("copy");
+                                                console.log("Email copied to clipboard!");
+                                            } catch (err) {
+                                                console.error("Fallback: Unable to copy text", err);
+                                            } finally {
+                                                document.body.removeChild(textarea);
+                                            }
+                                        }
+                                    }}
+                                >
+                                    Copy My Email
+                                </MagicButton>
+
                             </div>
                         </div>
                     )}

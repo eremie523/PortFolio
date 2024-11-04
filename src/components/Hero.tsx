@@ -34,7 +34,7 @@ const Hero = (props: Props) => {
                                 Hi, I&apos;m Johnson, a Full Stack Web Developer
                             </p>
                             <div>
-                                <MagicButton ico={<FaLocationArrow/>} position='right'>Show my Projects</MagicButton>
+                                <MagicButton ico={<FaLocationArrow/>} position='right' link="/#projects">Show my Projects</MagicButton>
                             </div>
                         </div>
                     </div>
