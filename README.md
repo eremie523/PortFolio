@@ -13,14 +13,13 @@ As a developer, I merge technical expertise with strategic insights to build sol
 ## 🛠️ Key Skills
 
 - **Frontend**: Next.js, React, JavaScript, HTML/CSS
-- **Backend**: Solidity, Ethereum, OpenZeppelin, PHP (with Composer)
-- **Blockchain**: Ethereum, Solana, Wallet Integration
+- **Backend**: Solidity, Ethereum, Node.js, PHP (with Composer)
+- **Blockchain**: Ethereum, Solana
 
 ## 🚀 Featured Projects
 
 1. **Kairos Terminal** – Cross-chain trading, liquidity aggregation, and sentiment analysis in one platform.
-2. **Corina AI** – AI chatbot with customized functionality and sub-domains.
-3. **Streamlivr** – Live streaming platform where users earn in $LIVR tokens.
+2. **Corina AI** – AI chatbot with customized functionality and sub-domains (In progress).
 4. **RSU Blog** – A sleek, functional blog built from scratch.
 5. **JobFindr** – Job scraping app for seamless job discovery.
 
