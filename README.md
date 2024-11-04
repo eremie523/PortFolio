@@ -8,7 +8,7 @@ Hello! I’m Eremie Johnson Ibinabo, a web developer and blockchain enthusiast w
 
 ## 🌐 About Me
 
-As a Chief Operations Officer and developer, I merge technical expertise with strategic insights to build solutions that drive results. With experience across multiple frameworks, languages, and blockchain ecosystems, I bring both breadth and depth to every project I undertake.
+As a developer, I merge technical expertise with strategic insights to build solutions that drive results. With experience across multiple frameworks, languages, and blockchain ecosystems, I bring both breadth and depth to every project I undertake.
 
 ## 🛠️ Key Skills
 
