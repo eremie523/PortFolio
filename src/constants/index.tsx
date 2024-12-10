@@ -98,7 +98,7 @@ export const PROJECTS = [
     title: "Flow Studio",
     des: "A music artist portfolio site to showcase his previous works in other to share and reach a broader audience",
     img: "/p5.png",
-    iconList:  ["/re.svg", "/tail.svg", "/ts.svg"],
+    iconLists:  ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://flow-studio-seven.vercel.app/"
   },
   {
@@ -106,7 +106,7 @@ export const PROJECTS = [
     title: "Nike Landing Page",
     des: "A model landing page for nike shoe company, Modern and Minimalistic",
     img: "/p6.png",
-    iconList:  ["/re.svg", "/tail.svg", "/ts.svg"],
+    iconLists:  ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "https://nike-eosin-delta.vercel.app/"
   },
   {
