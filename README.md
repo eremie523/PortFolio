@@ -20,7 +20,3 @@ As a developer, I merge technical expertise with strategic insights to build sol
 5. **JobFindr** – Job scraping app for seamless job discovery.
 
 Explore my work, and let’s connect if you’re interested in building something exceptional together!
-
----
-
-Feel free to adapt or expand it as needed!
